@@ -1,0 +1,30 @@
+{
+  "name": "try-gas",
+  "version": "1.0.0",
+  "description": "gas を触ってみるべ",
+  "main": "index.js",
+  "scripts": {
+    "login": "clasp login",
+    "create": "clasp create --title $npm_config_title --rootDir src",
+    "open": "clasp open",
+    "clone": "clasp clone $npm_config_id",
+    "push": "clasp push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shippokun/try-gas.git"
+  },
+  "author": "shippokun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shippokun/try-gas/issues"
+  },
+  "homepage": "https://github.com/shippokun/try-gas#readme",
+  "dependencies": {
+    "@google/clasp": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.37",
+    "typescript": "^4.4.3"
+  }
+}
